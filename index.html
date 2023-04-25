@@ -3,169 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./aya.css">
-  <title>Frontend Mentor | Clipboard landing page</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
 </head>
 <body>
-  <header>
-<div class="container">
-  <div figure="head-img">
-  <img class="img1" src="file:///C:/Users/user/Desktop/html/clipboard-landing-page-master/images/logo.svg">
-</div>
-  <h1 class="title">  
-    A history of everything you copy
-  </h1>
-  <p class="p1">
-    clipboard allows you to track and organiz everything you copy instantly<br> access 
-    your clipboard on all your devices.
-  </p> 
-  <div class="buton">
-   <button class="ios-button">
-    Downoald for ios
-  </button>
-  <button class="mac-button">
-    Dowload for Mac
-  </button>
-  </div>
-</div>
-  </header>
-  <div class="part2">
-  <h2 >
-    Keep track of yours snippets
-  </h2>
-  <p class="p2"> 
-    Cilpboard instantly stores any item you copy in the cloud .meaning you can access<br>
-    your snippets immediately on all your devices.Our Mac and iOS apps will  help you <br>
-    organiz everything.
-  </p>
-  </div>
-  <div class="containe">
-    <div class=" computer-image">
-      <img src="./images/image-computer.png" >
+  <div class="container">
+    <form>
+      <div class="form">
+        <div class="inpute_d">
+          <label  class="day" for="day_ll">DAY</label><br>
+      <input  id="num1"   type="text" name="day" placeholder="DD"><br>
+      <p><span class="errour day_erour"></span></p>
+        </div> 
+        <div class="inpute_m">
+          <label class="month" for="month_ll">MONTH</label><br>
+            <input id="num2" type="text"  name="month" placeholder="MM"><br>
+            <p><span class="errour month_erour"></span></p>
+        </div>
+        <div class="inpute_y">
+          <label  class="year" for="year_ll">YEAR</label><br>
+      <input id="num3" type="text" name="year" placeholder="YYYY"><br>
+      <p><span class="errour year_erour"></span></p>
+      </div>
+      </div>
+    </form>
+    <hr>
+    <div id="imd"> 
+     <img src="./assets/images/icon-arrow.svg">
     </div>
-    <div class="text">
-       <div class="col">
-       <h3>
-        Quick Search
-      </h3>
-      <p >
-        Easily Search Your Snippets By Content .<br>Category,web wddress ,Application,and more.
-      </p>
-       </div>
-       <div class="col">
-      <h3>
-        iCloud Sync
-      <p> 
-        Instantly Saves And Syncs Snippets Across All<br>Your Devices
-      </p>
-    </div>
-    <div class="col">
-      <h3>
-        Complete History
-      </h3>
-      <p>
-        Retrieve Any Snippets From The First Moment <br>You Started Using The App.
-      </p>
-    </div>
-    </div>
-  </div> 
-  <div class="access">
-    <div class="access1">
-    <h2>
-      Access Clipboard Anywhere 
-    </h2>
-    <p>
-      Whether you're on the go,Or at your computer .you can access aa your clipboard<br>snippets in a few simple clicks.
-    </p>
-    </div>
-    <img src="./images/image-devices.png" >
-  </div>
-  <div class="supercharge">
+    <div class="result">
     <h1>
-      Supercharge you workflow
-    </h1>
-    <p>
-      We've Got The Tools To Boost Your Productivity
-    </p>
+     <span id="years">--</span>
+     years</h1>
+     <h1>
+      <span id="month">--</span>
+      month</h1>
+      <h1>
+        <span id="days">--</span>
+        days</h1>
+    </div>
   </div>
-<div class="cont">
-  <div class="box box1">
-    <img src="./images/icon-blacklist.svg" >
-    <h3>Creat blacklists</h3>
-    <p>Ensure Sensitive Information Never Makes iTS <BR>
-    wAY tO Yours Clipboard By Excluding Certain <br> Sources.
-  </p>
-  </div>
-<div class="box box2">
-  <img src="file:///C:/Users/user/Desktop/html/Clipboard-landing-page/images/icon-text.svg">
-  <h3>
-    Plain text snippets
-  </h3>
-  <p>
-    Remove Unwanted Formating From Copied Text For A Consistent Look.
-  </p>
-</div>
-<div class ="box box3 ">
-  <img src="./images/icon-preview.svg" >
-  <h3>
-    Sneak preview
-  </h3>
-  <p> Quick Preview Of All Snippets On Your Clipboard For Easy Access</p>
-</div>
-</div>
-<div class="logo-box">
-  <div class="google">
-    <img src="./images/logo-google.png" >
-  </div>
-<div class="ibm">
- <img src="./images/logo-ibm.png">
-</div>
-<div class ="microsoft">
-  <img src="./images/logo-microsoft.png" >
-</div>
-<div class="hewlett">
-<img src="./images/logo-hp.png" >
-</div>
-<div class="vector">
-<img src="./images/logo-vector-graphics.png" >
-</div>
-</div>
-<div class="clipboard">
-<h2>
-  Clipboard for iOS and Mac OS
-</h2>
-<p>
-  Available for free on the App Store. Download for Mac or iOS<br>, sync with iCloud and you’re ready to start adding to your clipboard.
-</p>
-<button class="ios-button">
-  Downoald for ios
-</button>
-<button class="mac-button">
-  Dowload for Mac
-</button>
-</div>
-<div class="faq">
-  <div class="logo-c">
-  <img  src="./images/logo.svg" class="img-logo">
-  </div>
-  <div class="faqs">
-    
-    <a href="#" ><p > FAQs</p></a> 
-    <a href="#"><p >Contact Us</p></a>
-
-    <a href="#"><p > Privarcy Policy</p></a> 
-    <a  href="#"> <p>Press KIT</p></a>
-     <a href="#"><p >Install Guid</p></a> 
-
-     
-  </div>
-<div class="social">
-  <a   href="https://fr-fr.facebook.com/"><img src="./images/icon-facebook.svg" class="sos" ></a>
-    <a  href="https://twitter.com/?lang=fr"><img src="./images/icon-twitter.svg" class ="sos" ></a>
-    <a  href="https://www.instagram.com/"><img  src="./images/icon-instagram.svg"  class="sos" ></a>
-</div>
-</div>
+  <script src="./app.js"></script>
 </body>
 </html>

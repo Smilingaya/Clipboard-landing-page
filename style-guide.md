@@ -11,29 +11,24 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Strong Cyan: hsl(171, 66%, 44%)
-- Light Blue: hsl(233, 100%, 69%)
+- Purple: hsl(259, 100%, 65%)
+- Light red: hsl(0, 100%, 67%)
 
 ### Neutral
 
-- Dark Grayish Blue: hsl(210, 10%, 33%)
-- Grayish Blue: hsl(201, 11%, 66%)
+- White: hsl(0, 0%, 100%)
+- Off white: hsl(0, 0%, 94%)
+- Light grey: hsl(0, 0%, 86%)
+- Smokey grey: hsl(0, 1%, 44%)
+- Off black: hsl(0, 0%, 8%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 18px
+- Font size (inputs): 32px
 
-### Fonts
+### Font
 
-- Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
-- Weights: 400, 600
-
-## Icons
-
-For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400i, 700, 800i
